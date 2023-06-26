@@ -68,3 +68,4 @@ getgenv().DitPSX = {
 }
 script_key="XNTRsaxcxLkqWgZcozdWiwIhHCAejNwd";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/92d7557e2c88215501719ba3b576b89e.lua"))()
+
