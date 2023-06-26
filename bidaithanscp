@@ -66,5 +66,5 @@ getgenv().DitPSX = {
         ["Huge Hatch"] = "Huge hatched Logs Webhook URL here"
     },
 }
-script_key="EihnmZVnBGqBlOuqrfsNBmzHoxaEuXHI";
+script_key="niusdccdifEolYuDpWUOcNaGfyASZvsu";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/92d7557e2c88215501719ba3b576b89e.lua"))()
