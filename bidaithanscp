@@ -1,6 +1,7 @@
 getgenv().DitPSX = {
     --[[
         Collapse methods:
+        + "Stand Still" -- Do nothing (still check for daycare/rewards)
         + "Farm Fruit" -- Farm fruits
         + "Volcano Chest" -- Open Volcano Egg/Farm Pirate Cove Chest
         + "Mansion Egg" -- Open Dog Egg/Farm Dog Mansion Chest
@@ -24,7 +25,8 @@ getgenv().DitPSX = {
         -- Mainly farm Orange/Apple fruit while farming Diamonds
         -- Mainly farm Apple/Banana/ while opening Egg
         ["Enable"] = true,
-        ["Farm when under"] = 50
+        ["Farm when under"] = 50,
+        ["Farm until"] = 100,
     },
     ["Auto Mailbox"] = { -- Auto send Diamonds to a person thru Mailbox when your Diamonds more than set diamond
         ["Enable"] = false,
@@ -33,6 +35,7 @@ getgenv().DitPSX = {
     },
     ["Auto Claim Mailbox"] = true, -- Claim Diamonds on the account received the Diamonds from Auto Mailbox
     ["Auto Daycare"] = true, -- Auto Claim Daycare and Enroll unequipped/unlocked Pets in your Inventory
+    ["Auto Collect Rewards"] = false, -- Auto Collect Rank/VIP Rewards
     ["Auto Leave"] = {
         ["Ping Froze"] = true,
         ["Got kicked"] = true,
@@ -60,7 +63,7 @@ getgenv().DitPSX = {
         ["Hop Server"] = "Hop Server Logs Webhook URL here",
         ["Mailbox"] = "Claim/Send Gift Logs Webhook URL here",
         ["Mine Collapse"] = {
-["URL"] = "Mine Collapsed Logs Webhook URL here",
+            ["URL"] = "Mine Collapsed Logs Webhook URL here",
             ["Daily Collapse"] = true, -- Only notify if the collapse are daily (above 10m)
         },
         ["Huge Hatch"] = "Huge hatched Logs Webhook URL here"
