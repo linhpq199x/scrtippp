@@ -24,7 +24,7 @@ getgenv().DitPSX = {
     ["Auto Farm Fruit"] = {
         -- Mainly farm Orange/Apple fruit while farming Diamonds
         -- Mainly farm Apple/Banana/ while opening Egg
-        ["Enable"] = false,
+        ["Enable"] = true,
         ["Farm when under"] = 50,
         ["Farm until"] = 100,
     },
