@@ -12,8 +12,8 @@ getgenv().DitPSX = {
         ["Open Golden Egg"] = false, -- Will open Golden egg instead
     },
     ["Auto Triple Damage Boost"] = { -- Active when Farm Fruit/Diamond
-        ["Boost"] = true,
-        ["Server"] = true
+        ["Boost"] = false,
+        ["Server"] = false
     },
     ["Auto Boost"] = { -- Active when Open Egg
         ["Super Lucky"] = true,
