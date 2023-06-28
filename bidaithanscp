@@ -25,8 +25,8 @@ getgenv().DitPSX = {
         -- Mainly farm Orange/Apple fruit while farming Diamonds
         -- Mainly farm Apple/Banana/ while opening Egg
         ["Enable"] = true,
-        ["Farm when under"] = 50,
-        ["Farm until"] = 100,
+        ["Farm when under"] = 10,
+        ["Farm until"] = 50,
     },
     ["Auto Mailbox"] = { -- Auto send Diamonds to a person thru Mailbox when your Diamonds more than set diamond
         ["Enable"] = false,
@@ -54,7 +54,7 @@ getgenv().DitPSX = {
     ["Performance Mode"] = false, -- Enable if you want to AFK overnight, farm will be slower but low chance crashing roblox 
     ["Swap to Cyber Cavern"] = true, -- Will swap to Cyber Cavern if Mystic Mine out of Diamonds
     ["Legit Mode"] = false, -- Walk to points on map legit like an normal player, recommended enable with Performance Mode, farm will be slower
-    ["White Screen"] = false, -- Enable for disable game's rendering for less CPU/GPU usage
+    ["White Screen"] = true, -- Enable for disable game's rendering for less CPU/GPU usage
     ["Discord Webhook"] = {
         ["Stats Tracker"] = {
             ["URL"] = "Stat Tracker Webhook URL here",
