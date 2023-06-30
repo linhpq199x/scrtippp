@@ -34,7 +34,7 @@ getgenv().DitPSX = {
         ["Above amount"] = 100000000000
     },
     ["Auto Claim Mailbox"] = false, -- Claim Diamonds on the account received the Diamonds from Auto Mailbox
-    ["Auto Daycare"] = false, -- Auto Claim Daycare and Enroll unequipped/unlocked Pets in your Inventory
+    ["Auto Daycare"] = true, -- Auto Claim Daycare and Enroll unequipped/unlocked Pets in your Inventory
     ["Auto Collect Rewards"] = false, -- Auto Collect Rank/VIP Rewards
     ["Auto Leave"] = {
         ["Ping Froze"] = true,
