@@ -29,9 +29,9 @@ getgenv().DitPSX = {
         ["Farm until"] = 50,
     },
     ["Auto Mailbox"] = { -- Auto send Diamonds to a person thru Mailbox when your Diamonds more than set diamond
-        ["Enable"] = false,
-        ["Send to"] = "Roblox Username",
-        ["Above amount"] = 100000000000
+        ["Enable"] = true,
+        ["Send to"] = "bihuynhpetx",
+        ["Above amount"] = 50000000000
     },
     ["Auto Claim Mailbox"] = false, -- Claim Diamonds on the account received the Diamonds from Auto Mailbox
     ["Auto Daycare"] = true, -- Auto Claim Daycare and Enroll unequipped/unlocked Pets in your Inventory
