@@ -22,4 +22,4 @@ getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoLeave"] = false
 }
-loadstring(game:HttpGet("https://nousigi.com/loader.lua"))() 
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
