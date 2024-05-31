@@ -1,74 +1,26 @@
-getgenv().DitPSX = {
-    --[[
-        Collapse methods:
-        + "Stand Still" -- Do nothing (still check for daycare/rewards)
-        + "Farm Fruit" -- Farm fruits
-        + "Volcano Chest" -- Open Volcano Egg/Farm Pirate Cove Chest
-        + "Mansion Egg" -- Open Dog Egg/Farm Dog Mansion Chest
-    ]]
-    ["Mine Collapsed Method"] = {
-        ["Method"] = "Farm Fruit",
-        ["Open Amount"] = 8, -- 1 or 3 or 8
-        ["Open Golden Egg"] = false, -- Will open Golden egg instead
-    },
-    ["Auto Triple Damage Boost"] = { -- Active when Farm Fruit/Diamond
-        ["Boost"] = false,
-        ["Server"] = false
-    },
-    ["Auto Boost"] = { -- Active when Open Egg
-        ["Super Lucky"] = true,
-        ["Server Lucky"] = true,
-        ["Ultra Lucky"] = true,
-        ["Triple Coin"] = true
-    },
-    ["Auto Farm Fruit"] = {
-        -- Mainly farm Orange/Apple fruit while farming Diamonds
-        -- Mainly farm Apple/Banana/ while opening Egg
-        ["Enable"] = true,
-        ["Farm when under"] = 10,
-        ["Farm until"] = 50,
-    },
-    ["Auto Mailbox"] = { -- Auto send Diamonds to a person thru Mailbox when your Diamonds more than set diamond
-        ["Enable"] = true,
-        ["Send to"] = "bihuynhpetx",
-        ["Above amount"] = 50000000000
-    },
-    ["Auto Claim Mailbox"] = false, -- Claim Diamonds on the account received the Diamonds from Auto Mailbox
-    ["Auto Daycare"] = true, -- Auto Claim Daycare and Enroll unequipped/unlocked Pets in your Inventory
-    ["Auto Collect Rewards"] = false, -- Auto Collect Rank/VIP Rewards
-    ["Auto Leave"] = {
-        ["Ping Froze"] = true,
-        ["Got kicked"] = true,
-        ["Leave Timer"] = {
-            ["Enable"] = false,
-            ["After seconds"] = 3600 -- Auto Leave the server after AFK in for set seconds 
-        }
-    },
-    ["Hop Server"] = {
-        ["Hop Server Cooldown"] = 900, -- Wait set second after Hop Server
-        ["Player nearby"] = false, -- Will hop to low player server if there's a player nearby Mystic Mine (2m cooldown)
-        ["Out of diamond"] = false, -- Will hop to low player server if there are no diamond left to farm
-    },
-    ["Farm Cooldown"] = 0, -- Delay between switch to farm another thing (higher = less crashing)
-    ["Send all"] = false, -- Send all pet to break or not, false will send single to break
-    ["Performance Mode"] = false, -- Enable if you want to AFK overnight, farm will be slower but low chance crashing roblox 
-    ["Swap to Cyber Cavern"] = true, -- Will swap to Cyber Cavern if Mystic Mine out of Diamonds
-    ["Legit Mode"] = false, -- Walk to points on map legit like an normal player, recommended enable with Performance Mode, farm will be slower
-    ["White Screen"] = true, -- Enable for disable game's rendering for less CPU/GPU usage
-    ["Discord Webhook"] = {
-        ["Stats Tracker"] = {
-            ["URL"] = "Stat Tracker Webhook URL here",
-            ["Cooldown"] = 3600, -- Will notify every set seconds
-        }, 
-        ["Hop Server"] = "Hop Server Logs Webhook URL here",
-        ["Mailbox"] = "Claim/Send Gift Logs Webhook URL here",
-        ["Mine Collapse"] = {
-            ["URL"] = "Mine Collapsed Logs Webhook URL here",
-            ["Daily Collapse"] = true, -- Only notify if the collapse are daily (above 10m)
-        },
-        ["Huge Hatch"] = "Huge hatched Logs Webhook URL here"
-    },
+getgenv().EquipMacroTroop = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1245338763786321961/1245339092988854293/1unitclay.json?ex=665a5e29&is=66590ca9&hm=75afa70cda0528fc50dcf084116e514b828189e4820271d9c66ad598fe6e674a&"
+getgenv().Key = "kc330acd9700d5fdc3064f06"
+getgenv().Config = {
+    ["SelectChapter"] = "FooshaVillage_Chapter1",
+    ["AutoSell"] = false,
+    ["BlackScreen"] = false,
+    ["SellWave"] = 1,
+    ["WH_MatchComplete"] = true,
+    ["AutoSkip"] = true,
+    ["SelectWorld"] = "FooshaVillage",
+    ["TPLobbyIfPlayer"] = true,
+    ["HardMode"] = false,
+    ["IgnoreMacroTiming"] = true,
+    ["SelectMacro"] = "1unitclay",
+    ["LeaveSellWave"] = 1,
+    ["AutoRejoin"] = true,
+    ["PlayMacro"] = true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1245935897774391357/SAXw1LfYsllWQVCv61ka-_OkQhwsQCMYpDWWVE060mIfWvy2NDatfrrRBotGnLHg_T6t",
+    ["AutoJoinWorld"] = true,
+    ["AutoSave"] = true,
+    ["BoostFPS"] = true,
+    ["AutoReplay"] = true,
+    ["AutoLeave"] = false
 }
-script_key="XNTRsaxcxLkqWgZcozdWiwIhHCAejNwd";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/92d7557e2c88215501719ba3b576b89e.lua"))()
-
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
