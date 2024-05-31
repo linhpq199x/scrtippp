@@ -1,7 +1,7 @@
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1245338763786321961/1245339092988854293/1unitclay.json?ex=665a5e29&is=66590ca9&hm=75afa70cda0528fc50dcf084116e514b828189e4820271d9c66ad598fe6e674a&"
 getgenv().Key = "kc330acd9700d5fdc3064f06"
 getgenv().Config = {
-    ["SelectChapter"] = "Chapter 3",
+    ["SelectChapter"] = "Chapter 4",
     ["SelectWorld"] = "Windmill Village",
     ["AutoSell"] = false,
     ["BlackScreen"] = false,
