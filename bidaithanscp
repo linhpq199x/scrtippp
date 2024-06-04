@@ -1,7 +1,7 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168119649544704070/1246760312489644094/clay.txt?ex=665d8f86&is=665c3e06&hm=3f2081dd2d78a41e929c252b6ce7970f5fbc9649e45dc404aaf1547d0ee07299&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168060832966529075/1247441244863598612/skullinfi_31.txt?ex=666009b1&is=665eb831&hm=c84c90fe66fda0fa3bcb35f536fff8a93c298ffabdbe62806ade547fca3bf47e&"
 getgenv().Key = "k8e459d94fcb2dc7cb01cf41"
 getgenv().Config = {
-    ["SelectChapter"] = "Chapter 1",
+    ["SelectChapter"] = "Infinite",
     ["SelectWorld"] = "Windmill Village",
     ["AutoSell"] = false,
     ["BlackScreen"] = true,
@@ -11,15 +11,16 @@ getgenv().Config = {
     ["TPLobbyIfPlayer"] = true,
     ["HardMode"] = false,
     ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "clay",
-    ["LeaveSellWave"] = 1,
+    ["SelectMacro"] = "skullinfi_31",
+    ["LeaveSellWave"] = 31,
     ["AutoRejoin"] = true,
     ["PlayMacro"] = true,
     ["WebhookURL"] = "https://discord.com/api/webhooks/1245935897774391357/SAXw1LfYsllWQVCv61ka-_OkQhwsQCMYpDWWVE060mIfWvy2NDatfrrRBotGnLHg_T6t",
     ["AutoJoinWorld"] = true,
     ["AutoSave"] = true,
     ["BoostFPS"] = true,
-    ["AutoReplay"] = true,
-    ["AutoLeave"] = false
+    ["AutoReplay"] = false,
+    ["AutoReturnLobby"] = true,
+    ["AutoLeave"] = true
 }
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
