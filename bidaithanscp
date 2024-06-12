@@ -1,9 +1,10 @@
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168060832966529075/1247441244863598612/skullinfi_31.txt?ex=666009b1&is=665eb831&hm=c84c90fe66fda0fa3bcb35f536fff8a93c298ffabdbe62806ade547fca3bf47e&"
-getgenv().Key = "k4b821bf052b2bef70ac9628"
+getgenv().Key = "k8e459d94fcb2dc7cb01cf41"
 getgenv().Config = {
     ["SelectChapter"] = "Infinite",
     ["SelectWorld"] = "Windmill Village",
     ["AutoSell"] = false,
+    ["AutoClaimQuest"]= true,
     ["BlackScreen"] = true,
     ["SellWave"] = 1,
     ["WH_MatchComplete"] = true,
@@ -15,10 +16,11 @@ getgenv().Config = {
     ["LeaveSellWave"] = 31,
     ["AutoRejoin"] = true,
     ["PlayMacro"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1246776917768798310/1F6WFzuMaAyedNfOa-lvFu_vjnSevUro4Z3hiEfA5jjTUC4C8yf8b3WMbJoTxH88Fnr0",
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1245935897774391357/SAXw1LfYsllWQVCv61ka-_OkQhwsQCMYpDWWVE060mIfWvy2NDatfrrRBotGnLHg_T6t",
     ["AutoJoinWorld"] = true,
     ["AutoSave"] = true,
     ["BoostFPS"] = true,
+    ["DeleteMap"]=true,
     ["AutoReplay"] = false,
     ["AutoReturnLobby"] = true,
     ["AutoLeave"] = true
