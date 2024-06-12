@@ -24,6 +24,6 @@ getgenv().Config = {
     ["DeleteMap"]=true,
     ["AutoReplay"] = false,
     ["AutoReturnLobby"] = true,
-    ["AutoLeave"] = false
+    ["AutoLeave"] = true
 }
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
