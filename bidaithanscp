@@ -20,6 +20,7 @@ getgenv().Config = {
     ["AutoJoinWorld"] = true,
     ["AutoSave"] = true,
     ["BoostFPS"] = true,
+    ["DeleteMap"]=true,
     ["AutoReplay"] = false,
     ["AutoReturnLobby"] = true,
     ["AutoLeave"] = true
