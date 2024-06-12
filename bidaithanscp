@@ -22,8 +22,8 @@ getgenv().Config = {
     ["AutoSave"] = true,
     ["BoostFPS"] = true,
     ["DeleteMap"]=true,
-    ["AutoReplay"] = true,
-    ["AutoReturnLobby"] = false,
+    ["AutoReplay"] = false,
+    ["AutoReturnLobby"] = true,
     ["AutoLeave"] = false
 }
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
