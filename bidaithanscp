@@ -3,6 +3,7 @@ getgenv().Key = "k8e459d94fcb2dc7cb01cf41"
 getgenv().Config = {
     ["SelectChapter"] = "Infinite",
     ["SelectWorld"] = "Windmill Village",
+    ["JoinHighest"]= false,
     ["AutoSell"] = false,
     ["AutoClaimQuest"]= true,
     ["BlackScreen"] = true,
