@@ -1,7 +1,7 @@
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168060832966529075/1250475976626802800/gameloz.txt?ex=666b1401&is=6669c281&hm=a591eaf3bebb0a92dad9f89a481fe7270d295fe3d3a513df21dc693eddb1ec93&"
 getgenv().Key = "k8e459d94fcb2dc7cb01cf41"
 getgenv().Config = {
-    ["SelectChapter"] = "Chapter 1",
+    ["SelectChapter"] = "Chapter 2",
     ["SelectWorld"] = "Mob City",
     ["AutoSell"] = false,
     ["AutoClaimQuest"]= true,
