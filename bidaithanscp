@@ -1,9 +1,9 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1219013557367210084/1250632663807692800/gamebui.txt?ex=666ba5ee&is=666a546e&hm=b2dd03040b31d42da665787c344ea7ec2950a5f570f8a556f10c307ab3a9d90b&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168060832966529075/1247441244863598612/skullinfi_31.txt?ex=666009b1&is=665eb831&hm=c84c90fe66fda0fa3bcb35f536fff8a93c298ffabdbe62806ade547fca3bf47e&"
 getgenv().Key = "k8e459d94fcb2dc7cb01cf41"
 getgenv().Config = {
-    ["SelectChapter"] = "Chapter 6",
-    ["SelectWorld"] = "Cursed Academy",
-    ["JoinHighest"]= true,
+    ["SelectChapter"] = "Infinite",
+    ["SelectWorld"] = "Windmill Village",
+    ["JoinHighest"]= false,
     ["AutoSell"] = false,
     ["AutoClaimQuest"]= true,
     ["BlackScreen"] = true,
@@ -13,7 +13,7 @@ getgenv().Config = {
     ["TPLobbyIfPlayer"] = true,
     ["HardMode"] = false,
     ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "gamebui",
+    ["SelectMacro"] = "skullinfi_31",
     ["LeaveSellWave"] = 31,
     ["AutoRejoin"] = true,
     ["PlayMacro"] = true,
