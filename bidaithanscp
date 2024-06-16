@@ -95,7 +95,7 @@ getgenv().Config = {
 	["SelectChallengeMacro"] = {
 		["Cursed Academy"] = "academy",
 		["Blue Planet"] = "blueplanet",
-		["Underwater Temple"] = true,
+		["Underwater Temple"] = "underwater",
 		["Mob City"] = "city",
 		["Windmill Village"] = "villa"
 	},
