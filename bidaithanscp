@@ -1,4 +1,3 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168060832966529075/1247441244863598612/skullinfi_31.txt?ex=666009b1&is=665eb831&hm=c84c90fe66fda0fa3bcb35f536fff8a93c298ffabdbe62806ade547fca3bf47e&"
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251849535781605406/villa.txt?ex=6670133b&is=666ec1bb&hm=34ba370946ad1d53f8f28a3f38c139c728541ee799f32b33f99a3e267088ba1a&"
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251849553666117632/city.txt?ex=6670133f&is=666ec1bf&hm=1566b981f9f50a7073216f4b2a39c66c42aec2fb3a62e864ef7ea2bedc511f5e&"
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251849587355025488/blueplanet.txt?ex=66701347&is=666ec1c7&hm=591c5e95871d7c2fdf9ef58d9d5ef97fb0914f51e7ba65469a6b99d0aa6dee38&"
