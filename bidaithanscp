@@ -1,29 +1,143 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251827380193071134/cocailoz.txt?ex=666ffe99&is=666ead19&hm=28c84ace6b64b7f8137e09417be56fe97dd6b5f50fd18ed2fe4e48fb64464bea&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168060832966529075/1247441244863598612/skullinfi_31.txt?ex=666009b1&is=665eb831&hm=c84c90fe66fda0fa3bcb35f536fff8a93c298ffabdbe62806ade547fca3bf47e&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251849535781605406/villa.txt?ex=6670133b&is=666ec1bb&hm=34ba370946ad1d53f8f28a3f38c139c728541ee799f32b33f99a3e267088ba1a&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251849553666117632/city.txt?ex=6670133f&is=666ec1bf&hm=1566b981f9f50a7073216f4b2a39c66c42aec2fb3a62e864ef7ea2bedc511f5e&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251849587355025488/blueplanet.txt?ex=66701347&is=666ec1c7&hm=591c5e95871d7c2fdf9ef58d9d5ef97fb0914f51e7ba65469a6b99d0aa6dee38&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251849600948764724/academy.txt?ex=6670134b&is=666ec1cb&hm=2f9db704588191688a5b0efc9c67518786837ca8ea02c4d5214aadc750ef7efb&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251849641843097640/underwater.txt?ex=66701354&is=666ec1d4&hm=821fdf924585a4dc0a7e53e84dfb1dbc20ab03d10cf01544d9d48e156372df86&"
 getgenv().Key = "k8e459d94fcb2dc7cb01cf41"
 getgenv().Config = {
-    ["SelectChapter"] = "Chapter 6",
-    ["SelectWorld"] = "Underwater Temple",
-    ["JoinHighest"]= true,
-    ["AutoSell"] = false,
-    ["AutoClaimQuest"]= true,
-    ["BlackScreen"] = true,
-    ["SellWave"] = 1,
-    ["WH_MatchComplete"] = true,
-    ["AutoSkip"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["HardMode"] = false,
-    ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "cocailoz",
-    ["LeaveSellWave"] = 31,
-    ["AutoRejoin"] = true,
-    ["PlayMacro"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1245935897774391357/SAXw1LfYsllWQVCv61ka-_OkQhwsQCMYpDWWVE060mIfWvy2NDatfrrRBotGnLHg_T6t",
-    ["AutoJoinWorld"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-    ["DeleteMap"]=true,
-    ["AutoReplay"] = false,
-    ["AutoReturnLobby"] = true,
-    ["AutoLeave"] = true
+	["SelectChapter"] = "Infinite",
+	["AutoSave"] = true,
+	["WH_MatchComplete"] = false,
+	["AutoSkip"] = true,
+	["AutoClaimQuest"] = false,
+	["TPLobbyIfPlayer"] = false,
+	["SelectChallengeWorld"] = {
+		["Cursed Academy"] = true,
+		["Blue Planet"] = true,
+		["Underwater Temple"] = true,
+		["Mob City"] = true,
+		["Windmill Village"] = true
+	},
+	["IgnoreMacroTiming"] = true,
+	["SelectMacro"] = "skullinfi_31",
+	["SelectRaidMacro"] = {
+
+	},
+	["TeleportLobbyNewBanner"] = false,
+	["AutoJoinRaid"] = false,
+	["SelectReward"] = {
+		["Trait Crystal"] = true,
+		["Risky Dice"] = true,
+		["Gold"] = true,
+		["Star Rift (Rainbow)"] = true,
+		["Star Rift "] = true,
+		["Gems"] = true
+	},
+	["BoostFPS"] = true,
+	["UnselectIfSummoned"] = false,
+	["SelectDifficulty"] = {
+		["All units lowered range"] = true,
+		["All enemies regen health"] = true,
+		["All units increased cost"] = true,
+		["All enemies +1 shield"] = true,
+		["All enemies 2x health"] = true,
+		["All enemies 2x speed"] = true
+	},
+	["JoinerCooldown"] = 0,
+	["AutoSell"] = false,
+	["AutoSummonStandard"] = false,
+	["AutoReplay"] = false,
+	["AutoReturnLobby"] = true,
+	["JoinerList"] = {
+		[1] = "No joiner in the list"
+	},
+	["AutoJoinHoster"] = false,
+	["SelectWorld"] = "Windmill Village",
+	["OFARecord"] = false,
+	["WaitForJoiner"] = false,
+	["BlackScreen"] = false,
+	["AutoRejoin"] = false,
+	["StandardSummonUnit"] = {
+		["Maxed Qi Master"] = false,
+		["Shinobi Form 3"] = false,
+		["The Gamer"] = false,
+		["Carp"] = false,
+		["Admiral Of Lava"] = false,
+		["Dragon Slayer"] = false,
+		["Pink Rockstar"] = false,
+		["Chance Taker"] = false,
+		["Bloomer"] = false,
+		["Clay"] = false,
+		["Cursed Fighter"] = false,
+		["Thunder Shinobi"] = false,
+		["Fire Leg Master"] = false,
+		["Elf Wizardess"] = false,
+		["The Beast"] = false,
+		["Curse Prince"] = false,
+		["Ascended Qi Master"] = false,
+		["Flame Dragon King"] = false,
+		["Spirit Hybrid"] = false,
+		["Soulforce Reaper"] = false,
+		["Admiral Of Ice"] = false,
+		["Inferno Commander"] = false,
+		["Esper"] = false,
+		["Ant King"] = false,
+		["Sharpshooter"] = false,
+		["Skull Warrior"] = false,
+		["Vengeful Shinobi"] = false,
+		["Strongest Swordsman"] = false,
+		["Admiral Of Light"] = false,
+		["Master Swordsman"] = false
+	},
+	["AutoJoinWorld"] = true,
+	["WH_BannerSummoned"] = false,
+	["SelectChallengeMacro"] = {
+		["Cursed Academy"] = "academy",
+		["Blue Planet"] = "blueplanet",
+		["Underwater Temple"] = true,
+		["Mob City"] = "city",
+		["Windmill Village"] = "villa"
+	},
+	["LeaveSellWave"] = 31,
+	["AutoSummonLimited"] = false,
+	["UpgradeAndPlace"] = false,
+	["LimitedSummonUnit"] = {
+		["Donut Warrior"] = false,
+		["The Cursed Knight"] = false,
+		["Ocean Guardian"] = false,
+		["Warrior Princess"] = false,
+		["Electric Cyborg"] = false
+	},
+	["AutoPlay"] = false,
+	["AutoJoinChallenge"] = true,
+	["JoinHighest"] = false,
+	["PlaceGap"] = {
+		["Cursed Academy"] = 3.25,
+		["Blue Planet"] = 3.25,
+		["Underwater Temple"] = 3.25,
+		["Mob City"] = 3.25,
+		["Windmill Village"] = 3.25
+	},
+	["DeleteMap"] = true,
+	["AutoUpgrade"] = false,
+	["HardMode"] = false,
+	["MiddlePos"] = {
+
+	},
+	["DeleteRarity"] = {
+		["Epic"] = false,
+		["Legendary"] = false,
+		["Rare"] = false
+	},
+	["HillHeight"] = {
+		["Cursed Academy"] = 2,
+		["Blue Planet"] = 2,
+		["Underwater Temple"] = 2,
+		["Mob City"] = 2,
+		["Windmill Village"] = 2
+	},
+	["PlayMacro"] = true,
+	["AutoLeave"] = true
 }
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
