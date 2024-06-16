@@ -1,8 +1,8 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251809910916775996/mapcuo.txt?ex=666fee54&is=666e9cd4&hm=59ce9b3a2731c8658a75606d3ea947328a5d214cb7af39f71444e6ff3c282af2&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251827380193071134/cocailoz.txt?ex=666ffe99&is=666ead19&hm=28c84ace6b64b7f8137e09417be56fe97dd6b5f50fd18ed2fe4e48fb64464bea&"
 getgenv().Key = "k8e459d94fcb2dc7cb01cf41"
 getgenv().Config = {
     ["SelectChapter"] = "Chapter 6",
-    ["SelectWorld"] = "Blue Planet",
+    ["SelectWorld"] = "Underwater Temple",
     ["JoinHighest"]= true,
     ["AutoSell"] = false,
     ["AutoClaimQuest"]= true,
@@ -13,7 +13,7 @@ getgenv().Config = {
     ["TPLobbyIfPlayer"] = true,
     ["HardMode"] = false,
     ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "mapcuo",
+    ["SelectMacro"] = "cocailoz",
     ["LeaveSellWave"] = 31,
     ["AutoRejoin"] = true,
     ["PlayMacro"] = true,
