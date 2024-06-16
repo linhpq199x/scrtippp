@@ -1,9 +1,9 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168060832966529075/1247441244863598612/skullinfi_31.txt?ex=666009b1&is=665eb831&hm=c84c90fe66fda0fa3bcb35f536fff8a93c298ffabdbe62806ade547fca3bf47e&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224995624655654962/1251809910916775996/mapcuo.txt?ex=666fee54&is=666e9cd4&hm=59ce9b3a2731c8658a75606d3ea947328a5d214cb7af39f71444e6ff3c282af2&"
 getgenv().Key = "k8e459d94fcb2dc7cb01cf41"
 getgenv().Config = {
-    ["SelectChapter"] = "Infinite",
-    ["SelectWorld"] = "Windmill Village",
-    ["JoinHighest"]= false,
+    ["SelectChapter"] = "Chapter 6",
+    ["SelectWorld"] = "Blue Planet",
+    ["JoinHighest"]= true,
     ["AutoSell"] = false,
     ["AutoClaimQuest"]= true,
     ["BlackScreen"] = true,
@@ -13,7 +13,7 @@ getgenv().Config = {
     ["TPLobbyIfPlayer"] = true,
     ["HardMode"] = false,
     ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "skullinfi_31",
+    ["SelectMacro"] = "mapcuo",
     ["LeaveSellWave"] = 31,
     ["AutoRejoin"] = true,
     ["PlayMacro"] = true,
