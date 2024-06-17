@@ -107,7 +107,7 @@ getgenv().Config = {
 		["Electric Cyborg"] = false
 	},
 	["AutoPlay"] = false,
-	["AutoJoinChallenge"] = true,
+	["AutoJoinChallenge"] = false,
 	["JoinHighest"] = false,
 	["PlaceGap"] = {
 		["Cursed Academy"] = 3.25,
