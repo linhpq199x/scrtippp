@@ -41,20 +41,20 @@ getgenv().Config = {
 		["All enemies 2x health"] = true,
 		["All enemies 2x speed"] = true
 	},
-	["JoinerCooldown"] = 0,
+	["erCooldown"] = 0,
 	["AutoSell"] = false,
 	["AutoSummonStandard"] = false,
 	["AutoReplay"] = false,
 	["AutoReturnLobby"] = true,
-	["JoinerList"] = {
-		[1] = "No joiner in the list"
+	["erList"] = {
+		[1] = "No er in the list"
 	},
-	["AutoJoinHoster"] = false,
+	["AutoHoster"] = false,
 	["SelectWorld"] = "Windmill Village",
 	["OFARecord"] = false,
-	["WaitForJoiner"] = false,
+	["WaitForer"] = false,
 	["BlackScreen"] = true,
-	["AutoRejoin"] = false,
+	["AutoRe"] = false,
 	["StandardSummonUnit"] = {
 		["Maxed Qi Master"] = false,
 		["Shinobi Form 3"] = false,
@@ -87,7 +87,7 @@ getgenv().Config = {
 		["Admiral Of Light"] = false,
 		["Master Swordsman"] = false
 	},
-	["AutoJoinWorld"] = true,
+	["AutoWorld"] = true,
 	["WH_BannerSummoned"] = false,
 	["SelectChallengeMacro"] = {
 		["Cursed Academy"] = "academy",
@@ -107,7 +107,7 @@ getgenv().Config = {
 		["Electric Cyborg"] = false
 	},
 	["AutoPlay"] = false,
-	["AutoJoinChallenge"] = false,
+	["AutoJoinChallenge"] = true,
 	["JoinHighest"] = false,
 	["PlaceGap"] = {
 		["Cursed Academy"] = 3.25,
