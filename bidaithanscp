@@ -46,6 +46,7 @@ getgenv().Config = {
 	["AutoSell"] = false,
 	["AutoSummonStandard"] = false,
 	["AutoReplay"] = false,
+	["AutoJoinWorld"] = true,
 	["AutoReturnLobby"] = true,
 	["erList"] = {
 		[1] = "No er in the list"
