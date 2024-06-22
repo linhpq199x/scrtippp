@@ -91,7 +91,7 @@ getgenv().Config = {
 	},
 	["LeaveSellWave"] = 31,
 	["AutoRejoin"] = false,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1224995648399736882/eAgVG_XVNUi1VZsYvLSpYjiRM45Yn_VMjZu9VAqrVQNqeS4SsW53iGCr9tBuQW9zeM7F",
+	["WebhookURL"] = "https://discord.com/api/webhooks/1245935897774391357/SAXw1LfYsllWQVCv61ka-_OkQhwsQCMYpDWWVE060mIfWvy2NDatfrrRBotGnLHg_T6t",
 	["AutoRe"] = false,
 	["LSBomb"] = 1,
 	["MiddlePos"] = {
