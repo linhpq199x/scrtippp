@@ -105,7 +105,7 @@ getgenv().Config = {
 		["Windmill Village"] = true,
 		["Snowy Woods"] = false,
 		["Swordsman Dojo"] = false,
-		["Mob City"] = true,
+		["Haunted City"] = true,
 		["Underwater Temple"] = true
 	},
 	["SelectTowerMacro"] = {
@@ -139,7 +139,7 @@ getgenv().Config = {
 		["Cursed Academy"] = "academy",
 		["Blue Planet"] = "blueplanet",
 		["Windmill Village"] = "villa",
-		["Mob City"] = "city",
+		["Haunted City"] = "city",
 		["Underwater Temple"] = "underwater"
 	},
 	["AutoReplay"] = false,
@@ -159,7 +159,7 @@ getgenv().Config = {
 		["Tower of Eternity"] = 2,
 		["Windmill Village"] = 2,
 		["Swordsman Dojo"] = 2,
-		["Mob City"] = 2,
+		["Haunted City"] = 2,
 		["Underwater Temple"] = 2
 	},
 	["SelectDifficulty"] = {
@@ -183,7 +183,7 @@ getgenv().Config = {
 		["Tower of Eternity"] = 3.25,
 		["Windmill Village"] = 3.25,
 		["Swordsman Dojo"] = 3.25,
-		["Mob City"] = 3.25,
+		["Haunted City"] = 3.25,
 		["Underwater Temple"] = 3.25
 	},
 	["HardMode"] = false
