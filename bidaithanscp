@@ -18,7 +18,8 @@ getgenv().Config = {
 		["Gold"] = false,
 		["Star Rift (Rainbow)"] = true,
 		["Gems"] = true,
-		["Star Rift (Dark)"] = true
+		["Star Rift (Dark)"] = true,
+		["Star Rift (Light)"] = true
 	},
 	["AutoLeave"] = true,
 	["AutoSell"] = false,
