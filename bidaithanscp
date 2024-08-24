@@ -134,7 +134,7 @@ getgenv().Config = {
 	},
 	["LSDelay"] = 0.4,
 	["AutoJoinChallenge"] = true,
-	["AutoJoinWorld"] = true,
+	["AutoJoinWorld"] = flase,
 	["LSLoop"] = 2,
 	["SelectChallengeMacro"] = {
 		["Cursed Academy"] = "academy",
