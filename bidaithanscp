@@ -55,6 +55,7 @@ getgenv().Config = {
 		["Maxed Qi Master"] = false,
 		["Shinobi Form 3"] = false,
 		["The Gamer"] = true,
+		["Demon King"] = true,
 		["Carp"] = false,
 		["Admiral Of Lava"] = false,
 		["Dragon Slayer"] = false,
