@@ -8,7 +8,7 @@ getgenv().Config = {
 	["JoinerList"] = {
 		[1] = "No joiner in the list"
 	},
-	["AutoSummonStandard"] = false,
+	["AutoSummonStandard"] = true,
 	["AutoHoster"] = false,
 	["AutoPlayNext"] = false,
 	["SelectReward"] = {
@@ -54,7 +54,7 @@ getgenv().Config = {
 	["StandardSummonUnit"] = {
 		["Maxed Qi Master"] = false,
 		["Shinobi Form 3"] = false,
-		["The Gamer"] = false,
+		["The Gamer"] = true,
 		["Carp"] = false,
 		["Admiral Of Lava"] = false,
 		["Dragon Slayer"] = false,
