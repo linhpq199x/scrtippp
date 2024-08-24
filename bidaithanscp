@@ -133,7 +133,7 @@ getgenv().Config = {
 		["Cursed Dungeon"] = false
 	},
 	["LSDelay"] = 0.4,
-	["AutoJoinChallenge"] = true,
+	["AutoJoinChallenge"] = false,
 	["AutoJoinWorld"] = flase,
 	["LSLoop"] = 2,
 	["SelectChallengeMacro"] = {
